@@ -1,0 +1,124 @@
+.port-main-ul {
+    margin-bottom: 50px;
+  }
+  
+  .port-main-list:not(:last-child) {
+    margin-right: 8px;
+  }
+  
+  .port-modal-btn {
+    padding: 6px 22px;
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    background-color: var(--accent-background-color-sec);
+  
+    transition: background-color 250ms var(--transition-timing-function);
+      
+  &:hover,
+  &:focus {
+    color: var(--accent-color-four);
+    background-color: var(--accent-background-color);
+    cursor: pointer;
+  }
+  }
+  
+  .port-modal-btn.current {
+    color: var(--accent-color-four);
+    background-color: var(--accent-background-color);
+  }
+  
+  .port-main-ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .port-about-section-ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-bottom: -30px;
+  }
+  
+  .port-about-list {
+    border: 1px solid #eeeeee;
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .port-about-link {
+    display: block;
+  }
+  
+  .port-about-wndw {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .overlay {
+    padding: 63px 24px;
+    width: 100%;
+    height: 294px;
+    overflow: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    color: var(--accent-color-four);
+    background: rgba(33, 150, 243, 0.9);
+  
+    transform: translateY(100%);
+    transition: transform 250ms var(--transition-timing-function);
+  }
+  
+  .port-about-section-list:hover .overlay {
+    transform: translateY(0%);
+  }
+  
+  .port-about-section-list {
+    flex-basis: calc((100% - 90px) / 3);
+    background: url(portfolio1.jpg);
+    margin-left: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+  
+    transition: box-shadow 250ms var(--transition-timing-function);
+
+      
+  &:hover,
+  &:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
+  }
+  
+  .port-about-name {
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--accent-color-sec);
+  }
+  
+  .port-about-desc {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--accent-color-thr);
+  }
+
+  

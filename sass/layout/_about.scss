@@ -1,0 +1,45 @@
+  .about-section {
+    padding-bottom: 94px;
+  }
+  
+  .about-head {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+  
+  .about-ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .about__list {
+    background: url(close-up-image-programer-working-his-desk-office_1098-18707.jpg);
+    mix-blend-mode: normal;
+  }
+  
+  .about-list-wrapper {
+    position: relative;
+  }
+  
+  .about-list-desc {
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.15;
+    text-transform: uppercase;
+    color: var(--accent-color-four);
+    background: rgba(47, 48, 58, 0.8);
+  }
+  

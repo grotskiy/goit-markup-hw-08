@@ -1,0 +1,25 @@
+.modal-form-btn {
+    width: 200px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+  
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+  
+    color: var(--accent-color-four);
+    background-color: var(--accent-color-logo);
+    border-radius: 4px;
+    cursor: pointer;
+  
+    transition: background-color 250ms var(--transition-timing-function);
+
+      
+  &:focus,
+  &:hover {
+    background-color: #188CE8;
+  }
+  }

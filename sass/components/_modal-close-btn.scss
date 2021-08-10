@@ -1,0 +1,18 @@
+
+  .close-btn {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  
+  .close-icon:hover {
+    fill: var(--accent-color-logo);
+  }
